@@ -2,7 +2,8 @@
 this repo attemps to reproduce [Unpaired Image-to-Image Translation using Cycle-Consistent Adversarial Networks(CycleGAN)](https://arxiv.org/pdf/1703.10593.pdf) use gluon reimplementation
 
 ## Quick start ##
-1. download dataset ?????????????????????
+1. download dataset (my sample is apple <-> orange
+[dataset website)](https://people.eecs.berkeley.edu/~taesung_park/CycleGAN/datasets/)
 2. train 
 3. inference
 
