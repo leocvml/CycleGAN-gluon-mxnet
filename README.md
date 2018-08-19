@@ -2,10 +2,10 @@
 this repo attemps to reproduce [Unpaired Image-to-Image Translation using Cycle-Consistent Adversarial Networks(CycleGAN)](https://arxiv.org/pdf/1703.10593.pdf) use gluon reimplementation
 
 ## Quick start ##
-1. download dataset (my sample is samll set apple <-> orange)
+1. download dataset (my sample is samll set apple <-> orange(each domain have 45 images))
 
-you can download complete dataset from this link
-[dataset website](https://people.eecs.berkeley.edu/~taesung_park/CycleGAN/datasets/)
+ you can download complete dataset from this link
+ [dataset website](https://people.eecs.berkeley.edu/~taesung_park/CycleGAN/datasets/)
  
 2. train 
 3. inference ( weighting is trained by complete apple2orange dataset)
@@ -128,6 +128,12 @@ GAB_trainer.step(A.shape[0])
 
 
 **Orange2apple**
+
 ![](https://github.com/leocvml/CycleGAN-gluon-mxnet/blob/master/result/o2a_infer.PNG)
 
 
+## Reference ##
+https://github.com/junyanz/CycleGAN thanks author propose this new method
+
+and thanks gluon, mxnet team give us this wonderful tool, we can reimplement project very quickly
+thanks
